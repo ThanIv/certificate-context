@@ -9,6 +9,19 @@
             "documentName": "xsd:string",
             "issueDateAndTime": "xsd:string",
             "certificateId": "xsd:string",
+            "recipientDetails": {
+                "@id": "https://schemata.openattestation.com/vocab/#billTo",
+                "@context": {
+                  "fname": "xsd:string",
+                  "lname": "xsd:string",
+                  "fnameEN": "xsd:string",
+                  "lnameEN": "xsd:string",
+                  "sex": "xsd:string",
+                  "nationality": "xsd:string",
+                  "dateOfBirth": "xsd:string",
+                  "placeOfBirth": "xsd:string"
+                }
+            },
             "links": {
                 "@id": "https://schemata.openattestation.com/vocab/#links",
                 "@context": {
