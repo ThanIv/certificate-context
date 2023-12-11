@@ -9,6 +9,7 @@
             "documentName": "xsd:string",
             "issueDateAndTime": "xsd:string",
             "certificateId": "xsd:string",
+            "recipientPhoto": "xsd:string",
             "recipientDetails": {
                 "@id":"xsd:string",
                 "@context": {
