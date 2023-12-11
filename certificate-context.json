@@ -10,7 +10,7 @@
             "issueDateAndTime": "xsd:string",
             "certificateId": "xsd:string",
             "recipientDetails": {
-                "@id": "@recipientDetails",
+                "@id": "#recipientDetails",
                 "@context": {
                   "fname": "xsd:string",
                   "lname": "xsd:string",
@@ -23,7 +23,7 @@
                 }
             },
             "certificateDetails": {
-                "@id": "@certificateDetails",
+                "@id": "#certificateDetails",
                 "@context": {
                   "level": "xsd:string",
                   "major": "xsd:string",
@@ -31,10 +31,10 @@
                 }
             },
             "links": {
-                "@id": "@links",
+                "@id": "#links",
                 "@context": {
                 "self": {
-                    "@id": "@self",
+                    "@id": "#self",
                     "@context": {
                     "href": "xsd:string"
                     }
