@@ -10,7 +10,7 @@
             "issueDateAndTime": "xsd:string",
             "certificateId": "xsd:string",
             "recipientDetails": {
-                "@id": "recipientDetails",
+                "@id": "xsd:string",
                 "@context": {
                   "fname": "xsd:string",
                   "lname": "xsd:string",
@@ -23,7 +23,7 @@
                 }
             },
             "certificateDetails": {
-                "@id": "certificateDetails",
+                "@id": "xsd:string",
                 "@context": {
                   "level": "xsd:string",
                   "major": "xsd:string",
@@ -31,7 +31,7 @@
                 }
             },
             "links": {
-                "@id": "https://schemata.openattestation.com/vocab/#links",
+                "@id": "xsd:string",
                 "@context": {
                 "self": {
                     "@id": "https://schemata.openattestation.com/vocab/#self",
