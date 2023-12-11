@@ -34,7 +34,7 @@
                 "@id": "@links",
                 "@context": {
                 "self": {
-                    "@id": "https://schemata.openattestation.com/vocab/#self",
+                    "@id": "@self",
                     "@context": {
                     "href": "xsd:string"
                     }
