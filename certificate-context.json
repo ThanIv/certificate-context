@@ -10,7 +10,7 @@
             "issueDateAndTime": "xsd:string",
             "certificateId": "xsd:string",
             "recipientDetails": {
-                "@id": "https://schemata.openattestation.com/vocab/#billTo",
+                "@id": "recipientDetails",
                 "@context": {
                   "fname": "xsd:string",
                   "lname": "xsd:string",
@@ -20,6 +20,14 @@
                   "nationality": "xsd:string",
                   "dateOfBirth": "xsd:string",
                   "placeOfBirth": "xsd:string"
+                }
+            },
+            "certificateDetails": {
+                "@id": "certificateDetails",
+                "@context": {
+                  "level": "xsd:string",
+                  "major": "xsd:string",
+                  "dateOfCompletion": "xsd:string"
                 }
             },
             "links": {
